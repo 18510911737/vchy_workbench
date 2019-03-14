@@ -12,7 +12,7 @@ export default class HelloI18n extends Vue {
 
 <i18n>
 {
-  "en": {
+  "cn": {
     "hello": "Hello i18n in SFC!"
   }
 }
