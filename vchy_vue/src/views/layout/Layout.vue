@@ -1,18 +1,36 @@
 <template>
-  <div>
-    <el-container>
-      <el-header>
-        <router-view name="Header"/>
-      </el-header>
-      <el-main>
-        <router-view name="Main"/>
-      </el-main>
-      <el-footer>
-        <router-view name="Footer"/>
-      </el-footer>
-    </el-container>
-  </div>
+  <el-container  :style="setting">
+    <el-header>
+      <router-view name="Header"/>
+    </el-header>
+    <el-main>
+      <router-view name="Main"/>
+    </el-main>
+    <el-footer>
+      <router-view name="Footer"/>
+    </el-footer>
+  </el-container>
 </template>
+<script lang="ts">
+export default {
+  data() {
+    return {
+      setting: {
+        height: ""
+      }
+    };
+  },
+  methods: {
+    GetHeight() {
+      this.setting.height = window.innerHeight-50 + "px";
+    }
+  },
+  created() {
+    window.addEventListener("resize", this.GetHeight);
+    this.GetHeight();
+  }
+};
+</script>
 
 <style>
 .el-row {

@@ -25,6 +25,10 @@ export default new Router({
             {
               path: '/',
               component: () => import('@/components/MavonEditor.vue')
+            },
+            {
+              path:'/html',
+              component:()=> import('./views/utlis/HTML.vue')
             }
           ]
         }
