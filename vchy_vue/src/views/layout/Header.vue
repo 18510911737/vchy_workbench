@@ -17,6 +17,11 @@
                 <el-menu-item index="2-4-3">选项3</el-menu-item>
               </el-submenu>
             </el-submenu>
+            <el-submenu index="3">
+              <template slot="title">{{ $t('语言') }}</template>
+              <el-menu-item index="3-1" @click="Language('cn')">简体中文</el-menu-item>
+              <el-menu-item index="3-2" @click="Language('en')">English</el-menu-item>
+            </el-submenu>
           </el-menu>
         </div>
       </el-col>
@@ -34,6 +39,9 @@ export default {
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
+    },
+    Language(language) {
+      this.$i18n.locale = language;
     }
   }
 };

@@ -22,7 +22,10 @@ export default new Router({
               Footer
           },
           children:[
-            
+            {
+              path:'/',
+              component:()=>import('@/components/MavonEditor.vue')
+            }
           ]
         }
       ]
