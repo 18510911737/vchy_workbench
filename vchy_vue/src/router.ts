@@ -9,22 +9,22 @@ Vue.use(Router)
 export default new Router({
   mode: "history",
   routes: [
-   {
+    {
       path: '/',
       name: 'layout',
       component: () => import('./views/layout/Layout.vue'),
-      children:[
+      children: [
         {
-          path:'/',
-          components:{
-              Header,
-              Main,
-              Footer
+          path: '/',
+          components: {
+            Header,
+            Main,
+            Footer
           },
-          children:[
+          children: [
             {
-              path:'/',
-              component:()=>import('@/components/MavonEditor.vue')
+              path: '/',
+              component: () => import('@/components/MavonEditor.vue')
             }
           ]
         }

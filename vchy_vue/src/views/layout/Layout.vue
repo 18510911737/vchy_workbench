@@ -1,5 +1,5 @@
 <template>
-  <div id="layout">
+  <div>
     <el-container>
       <el-header>
         <router-view name="Header"/>
