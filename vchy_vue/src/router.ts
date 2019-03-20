@@ -23,8 +23,12 @@ export default new Router({
           },
           children: [
             {
-              path: '/',
+              path: '/MavonEditor',
               component: () => import('@/components/MavonEditor.vue')
+            },
+            {
+              path: '/',
+              component: () => import('@/components/Monaco.vue')
             },
             {
               path:'/html',

@@ -1,0 +1,17 @@
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\vchy_api.deps.json
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\vchy_api.runtimeconfig.json
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\vchy_api.runtimeconfig.dev.json
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\vchy_api.dll
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.RazorAssemblyInfo.cache
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.RazorAssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.RazorTargetAssemblyInfo.cache
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\vchy_api.pdb
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.dll
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.pdb
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\VchyMusic.dll
+D:\vchy\vchy_workbench\vchy_api\bin\Debug\netcoreapp2.1\VchyMusic.pdb
+D:\vchy\vchy_workbench\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.csproj.CopyComplete
