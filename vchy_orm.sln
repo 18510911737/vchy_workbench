@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vchy_orm", "vchy_orm\vchy_orm\vchy_orm.csproj", "{2FE16A73-8663-46E9-9BE1-448D1BCC3DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vchy_orm_test", "vchy_orm\vchy_orm_test\vchy_orm_test.csproj", "{AEFB1132-834B-4965-BC91-9AC06DF68793}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VchyORMTest", "vchy_orm\VchyORMTest\VchyORMTest.csproj", "{D2181789-798D-4610-B98A-CF33CA0D9CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VchyORMAttribute", "vchy_orm\VchyORMAttribute\VchyORMAttribute.csproj", "{495B71E7-B409-4C9B-9F30-5860F6902D4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{2FE16A73-8663-46E9-9BE1-448D1BCC3DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE16A73-8663-46E9-9BE1-448D1BCC3DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE16A73-8663-46E9-9BE1-448D1BCC3DFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEFB1132-834B-4965-BC91-9AC06DF68793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEFB1132-834B-4965-BC91-9AC06DF68793}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEFB1132-834B-4965-BC91-9AC06DF68793}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEFB1132-834B-4965-BC91-9AC06DF68793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2181789-798D-4610-B98A-CF33CA0D9CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2181789-798D-4610-B98A-CF33CA0D9CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2181789-798D-4610-B98A-CF33CA0D9CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2181789-798D-4610-B98A-CF33CA0D9CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495B71E7-B409-4C9B-9F30-5860F6902D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495B71E7-B409-4C9B-9F30-5860F6902D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495B71E7-B409-4C9B-9F30-5860F6902D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495B71E7-B409-4C9B-9F30-5860F6902D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,10 +10,14 @@ namespace vchy_orm
 
         public DapperFactory()
         {
-            
+            _conn = ConfigHelper.GetSectionValue("conn");
+        }
+        public DapperFactory(string conn)
+        {
+            _conn = conn;
         }
 
-        public IDbConnection Connection => new SqlConnection();
+        public IDbConnection Connection => new SqlConnection(_conn);
 
     }
 }

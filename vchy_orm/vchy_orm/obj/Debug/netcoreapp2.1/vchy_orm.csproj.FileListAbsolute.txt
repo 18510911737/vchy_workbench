@@ -1,7 +1,6 @@
 D:\vchy\vchy_workbench\vchy_orm\vchy_orm\bin\Debug\netcoreapp2.1\vchy_orm.deps.json
 D:\vchy\vchy_workbench\vchy_orm\vchy_orm\bin\Debug\netcoreapp2.1\vchy_orm.dll
 D:\vchy\vchy_workbench\vchy_orm\vchy_orm\bin\Debug\netcoreapp2.1\vchy_orm.pdb
-D:\vchy\vchy_workbench\vchy_orm\vchy_orm\obj\Debug\netcoreapp2.1\vchy_orm.csprojAssemblyReference.cache
 D:\vchy\vchy_workbench\vchy_orm\vchy_orm\obj\Debug\netcoreapp2.1\vchy_orm.csproj.CoreCompileInputs.cache
 D:\vchy\vchy_workbench\vchy_orm\vchy_orm\obj\Debug\netcoreapp2.1\vchy_orm.AssemblyInfoInputs.cache
 D:\vchy\vchy_workbench\vchy_orm\vchy_orm\obj\Debug\netcoreapp2.1\vchy_orm.AssemblyInfo.cs

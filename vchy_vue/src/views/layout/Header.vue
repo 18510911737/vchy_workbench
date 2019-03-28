@@ -22,10 +22,14 @@
             <el-submenu index="3">
               <template slot="title">{{ $t('工具') }}</template>
               <el-menu-item index="3-1">
-                <router-link to="/html" tag="span" >{{ $t('HTML') }}</router-link>
+                <router-link to="/html" tag="span">{{ $t('HTML') }}</router-link>
               </el-menu-item>
-              <el-menu-item index="3-2">选项2</el-menu-item>
-              <el-menu-item index="3-3">选项3</el-menu-item>
+              <el-menu-item index="3-2">
+                <router-link to="/Monaco" tag="span">{{ $t('编辑器') }}</router-link>
+              </el-menu-item>
+              <el-menu-item index="3-3">
+                <router-link to="/Calculator" tag="span">{{ $t('计算器') }}</router-link>
+              </el-menu-item>
               <el-submenu index="3-4">
                 <template slot="title">选项4</template>
                 <el-menu-item index="3-4-1">选项1</el-menu-item>
