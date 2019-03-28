@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{F00CA0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VchyMusic", "vchy_api\VchyMusic\VchyMusic.csproj", "{9958DDD6-71A7-45A9-B488-05D60DC44421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VchyCalculator", "vchy_api\VchyCalculator\VchyCalculator.csproj", "{55D9D991-8796-46E5-B81B-726F1DDA2D69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{9958DDD6-71A7-45A9-B488-05D60DC44421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9958DDD6-71A7-45A9-B488-05D60DC44421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9958DDD6-71A7-45A9-B488-05D60DC44421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D9D991-8796-46E5-B81B-726F1DDA2D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D9D991-8796-46E5-B81B-726F1DDA2D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D9D991-8796-46E5-B81B-726F1DDA2D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D9D991-8796-46E5-B81B-726F1DDA2D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9958DDD6-71A7-45A9-B488-05D60DC44421} = {F00CA0BC-CA83-4201-890E-FDCF1F0D4881}
+		{55D9D991-8796-46E5-B81B-726F1DDA2D69} = {F00CA0BC-CA83-4201-890E-FDCF1F0D4881}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {623FCB0D-D12A-46C4-A451-72354A71C0AB}

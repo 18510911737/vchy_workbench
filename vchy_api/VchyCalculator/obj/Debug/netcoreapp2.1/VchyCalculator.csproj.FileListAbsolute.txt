@@ -1,0 +1,9 @@
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\bin\Debug\netcoreapp2.1\VchyCalculator.deps.json
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\bin\Debug\netcoreapp2.1\VchyCalculator.dll
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\bin\Debug\netcoreapp2.1\VchyCalculator.pdb
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\obj\Debug\netcoreapp2.1\VchyCalculator.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\obj\Debug\netcoreapp2.1\VchyCalculator.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\obj\Debug\netcoreapp2.1\VchyCalculator.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\obj\Debug\netcoreapp2.1\VchyCalculator.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\obj\Debug\netcoreapp2.1\VchyCalculator.dll
+D:\vchy\vchy_workbench\vchy_api\VchyCalculator\obj\Debug\netcoreapp2.1\VchyCalculator.pdb
