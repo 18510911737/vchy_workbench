@@ -95,7 +95,7 @@ namespace VchyCalculator
 
                     if (i + 1 == _chArray.Length)
                     {
-                        SavePhrase(startpos, startpos);
+                        SavePhrase(startpos, i);
                     }
                 }
                 else if (_chArray[i] == '.')
@@ -159,6 +159,12 @@ namespace VchyCalculator
                     else if (_chArray[i] == ')')
                     {
                         _dfa = DFAState.S13;
+                        if (i+1==_chArray.Length)
+                        {
+                            startpos++;
+                            endpos++;
+                            SavePhrase(startpos,endpos);
+                        }
                     }
                     else if (_chArray[i] == '!')
                     {

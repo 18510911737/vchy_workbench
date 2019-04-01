@@ -11,12 +11,12 @@ namespace VchyCalculator
         /// <summary>
         /// 分词结果保存
         /// </summary>
-        public StringCollection _strs = new StringCollection();
+        public List<string> _strs = new List<string>();
 
         /// <summary>
         /// 分词类型保存
         /// </summary>
-        public ArrayList _types = new ArrayList();
+        public List<PhraseType> _types = new List<PhraseType>();
 
         /// <summary>
         /// 清除缓存结果
@@ -26,6 +26,13 @@ namespace VchyCalculator
             _strs.Clear();
             _types.Clear();
         }
+
+        public void RemoveFirst()
+        {
+            _strs.RemoveAt(0);
+            _types.RemoveAt(0);
+        }
+
 
         /// <summary>
         /// 添加词和词类
