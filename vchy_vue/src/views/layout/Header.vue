@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div>
     <el-row :gutter="20">
       <el-col :offset="4" :span="16">
@@ -58,7 +58,7 @@ export default {
   },
   methods: {
     handleSelect(key, keyPath) {
-      console.log(key, keyPath);
+      
     },
     Language(language) {
       this.$i18n.locale = language;

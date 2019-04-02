@@ -21,10 +21,10 @@ export default {
   },
   methods: {
     save(text, html) {
-        this.dialogVisible=true;
+        (this as any).dialogVisible=true;
     },
     saveTitle(){
-        this.dialogVisible=false;
+        (this as any).dialogVisible=false;
     }
   }
 };

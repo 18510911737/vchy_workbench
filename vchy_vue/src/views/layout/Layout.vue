@@ -15,19 +15,14 @@
 export default {
   data() {
     return {
-      setting: {
-        height: ""
-      }
+      
     };
   },
   methods: {
-    GetHeight() {
-      this.setting.height = window.innerHeight-50 + "px";
-    }
+   
   },
   created() {
-    window.addEventListener("resize", this.GetHeight);
-    this.GetHeight();
+   
   }
 };
 </script>
