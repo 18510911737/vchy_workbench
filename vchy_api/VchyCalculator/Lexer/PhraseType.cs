@@ -6,15 +6,30 @@ namespace VchyCalculator
 {
     public enum PhraseType : int
     {
+        /// <summary>
+        /// 未知
+        /// </summary>
         unknown = 0,
+        /// <summary>
+        /// 自然对数
+        /// </summary>
         ln = 1,
         lg = 2,
+        /// <summary>
+        /// 对数
+        /// </summary>
         log = 3,
         pow = 4,        //a^b
         cbrt = 6,       //a^-0.5
         sbrt = 7,       //a^-1/3
         fact = 8,
+        /// <summary>
+        /// 正弦
+        /// </summary>
         sin = 10,
+        /// <summary>
+        /// 余弦
+        /// </summary>
         cos = 11,
         asin = 12,
         acos = 13,
@@ -27,8 +42,14 @@ namespace VchyCalculator
         mutiple = 20,
         divide = 21,
         mod = 23,
-        leftbracket = 24,       //(
-        rightbracket = 25,  //)
+        /// <summary>
+        /// (
+        /// </summary>
+        leftbracket = 24,
+        /// <summary>
+        /// )
+        /// </summary>
+        rightbracket = 25, 
         ans = 26,       //variable ans
         sto = 27,       //save to var
         clr = 28,       //clear vars
@@ -39,7 +60,13 @@ namespace VchyCalculator
         ex = 33,        //variable e
         fx = 34,        //variable f
         e = 35,
+        /// <summary>
+        /// 圆周率
+        /// </summary>
         pi = 36,
+        /// <summary>
+        /// 数字
+        /// </summary>
         number = 37,
         sharp = 38
     }
@@ -78,7 +105,7 @@ namespace VchyCalculator
                 case "(": return PhraseType.leftbracket;
                 case ")": return PhraseType.rightbracket;
                 case "#": return PhraseType.sharp;
-                case "ans": return PhraseType.ans;
+                case "Ans": return PhraseType.ans;
                 case "sto": return PhraseType.sto;
                 case "clr": return PhraseType.clr;
                 case "A": return PhraseType.ax;
