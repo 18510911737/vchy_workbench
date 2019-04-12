@@ -1,0 +1,9 @@
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\bin\Debug\netcoreapp2.1\VchyORMException.deps.json
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\bin\Debug\netcoreapp2.1\VchyORMException.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\bin\Debug\netcoreapp2.1\VchyORMException.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\obj\Debug\netcoreapp2.1\VchyORMException.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\obj\Debug\netcoreapp2.1\VchyORMException.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\obj\Debug\netcoreapp2.1\VchyORMException.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\obj\Debug\netcoreapp2.1\VchyORMException.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\obj\Debug\netcoreapp2.1\VchyORMException.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMException\obj\Debug\netcoreapp2.1\VchyORMException.csprojAssemblyReference.cache

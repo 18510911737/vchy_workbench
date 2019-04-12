@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "VchyORMCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/VchyORMCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMCommon.dll": {}
+        }
       }
     }
   },
@@ -680,11 +690,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "VchyORMCommon/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMCommon/VchyORMCommon.csproj",
+      "msbuildProject": "../VchyORMCommon/VchyORMCommon.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "VchyORMCommon >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -715,7 +731,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\vchy\\vchy_workbench\\vchy_orm\\VchyORMCommon\\VchyORMCommon.csproj": {
+              "projectPath": "D:\\vchy\\vchy_workbench\\vchy_orm\\VchyORMCommon\\VchyORMCommon.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

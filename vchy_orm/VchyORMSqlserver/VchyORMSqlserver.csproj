@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VchyORMDbBase\VchyORMDbBase.csproj" />
+    <ProjectReference Include="..\VchyORMSql\VchyORMSql.csproj" />
+  </ItemGroup>
+
+</Project>

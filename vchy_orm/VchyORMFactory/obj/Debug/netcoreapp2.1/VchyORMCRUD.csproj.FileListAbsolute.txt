@@ -1,0 +1,5 @@
+D:\vchy\vchy_workbench\vchy_orm\VchyORMCRUD\bin\Debug\netcoreapp2.1\VchyORMAttribute.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMCRUD\obj\Debug\netcoreapp2.1\VchyORMCRUD.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMCRUD\obj\Debug\netcoreapp2.1\VchyORMCRUD.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMCRUD\obj\Debug\netcoreapp2.1\VchyORMCRUD.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMCRUD\obj\Debug\netcoreapp2.1\VchyORMCRUD.AssemblyInfo.cs

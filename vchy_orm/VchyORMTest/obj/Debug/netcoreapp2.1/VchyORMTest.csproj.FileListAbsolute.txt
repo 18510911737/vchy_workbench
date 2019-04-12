@@ -6,8 +6,6 @@ D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMTest.
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMTest.runtimeconfig.dev.json
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMTest.dll
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMTest.pdb
-D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\vchy_orm.dll
-D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\vchy_orm.pdb
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.csprojAssemblyReference.cache
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.csproj.CoreCompileInputs.cache
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.AssemblyInfoInputs.cache
@@ -15,3 +13,18 @@ D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.csproj.CopyComplete
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.dll
 D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\obj\Debug\netcoreapp2.1\VchyORMTest.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMAttribute.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMCommon.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMFactory.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMFactory.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMAttribute.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMCommon.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMDbBase.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMDbBase.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyModel.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMSql.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMSqlserver.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyModel.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMSql.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\VchyORMSqlserver.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMTest\bin\Debug\netcoreapp2.1\appsettings.json

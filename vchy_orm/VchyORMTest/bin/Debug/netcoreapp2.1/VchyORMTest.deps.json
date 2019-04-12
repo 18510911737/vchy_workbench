@@ -1,15 +1,17 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "2ddd21f2f7da02ab6691f4b686a1aa47146163e3"
+    "signature": "8e503c29eb458c5d03ee0a7bd8213ff8c04590d8"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "VchyORMTest/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "Microsoft.NET.Test.Sdk": "15.9.0",
-          "vchy_orm": "1.0.0",
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMFactory": "1.0.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
@@ -17,7 +19,7 @@
           "VchyORMTest.dll": {}
         }
       },
-      "Dapper/1.60.1": {
+      "Dapper/1.60.6": {
         "dependencies": {
           "System.Data.SqlClient": "4.4.0",
           "System.Reflection.Emit.Lightweight": "4.3.0",
@@ -26,7 +28,7 @@
         "runtime": {
           "lib/netstandard2.0/Dapper.dll": {
             "assemblyVersion": "1.60.0.0",
-            "fileVersion": "1.60.1.8373"
+            "fileVersion": "1.60.6.27094"
           }
         }
       },
@@ -1196,13 +1198,67 @@
           "Microsoft.NET.Test.Sdk": "15.9.0"
         }
       },
-      "vchy_orm/1.0.0": {
+      "VchyModel/1.0.0": {
         "dependencies": {
-          "Dapper": "1.60.1",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMCommon": "1.0.0"
         },
         "runtime": {
-          "vchy_orm.dll": {}
+          "VchyModel.dll": {}
+        }
+      },
+      "VchyORMAttribute/1.0.0": {
+        "dependencies": {
+          "VchyORMCommon": "1.0.0"
+        },
+        "runtime": {
+          "VchyORMAttribute.dll": {}
+        }
+      },
+      "VchyORMCommon/1.0.0": {
+        "runtime": {
+          "VchyORMCommon.dll": {}
+        }
+      },
+      "VchyORMDbBase/1.0.0": {
+        "dependencies": {
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMCommon": "1.0.0",
+          "VchyORMSql": "1.0.0"
+        },
+        "runtime": {
+          "VchyORMDbBase.dll": {}
+        }
+      },
+      "VchyORMFactory/1.0.0": {
+        "dependencies": {
+          "Dapper": "1.60.6",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "VchyModel": "1.0.0",
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMDbBase": "1.0.0",
+          "VchyORMSqlserver": "1.0.0"
+        },
+        "runtime": {
+          "VchyORMFactory.dll": {}
+        }
+      },
+      "VchyORMSql/1.0.0": {
+        "dependencies": {
+          "VchyModel": "1.0.0",
+          "VchyORMAttribute": "1.0.0"
+        },
+        "runtime": {
+          "VchyORMSql.dll": {}
+        }
+      },
+      "VchyORMSqlserver/1.0.0": {
+        "dependencies": {
+          "VchyORMDbBase": "1.0.0",
+          "VchyORMSql": "1.0.0"
+        },
+        "runtime": {
+          "VchyORMSqlserver.dll": {}
         }
       }
     }
@@ -1213,12 +1269,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Dapper/1.60.1": {
+    "Dapper/1.60.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-v8eekTHjIMEybch8VwkmaakAO1VpTA0q/kZlEjDlW74lP108UgFex1CyCV5FvgRuyHUkPSHTgYvs7loi3g+v/w==",
-      "path": "dapper/1.60.1",
-      "hashPath": "dapper.1.60.1.nupkg.sha512"
+      "sha512": "sha512-ZqK3znlm8dapfO8M0vCgV5+wJrl5Uv00WYmj27wQ6zufSLcklVNJ2fdVMUj59o89p+lmRD6QivTRe0Gdfm6UAQ==",
+      "path": "dapper/1.60.6",
+      "hashPath": "dapper.1.60.6.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/15.9.0": {
       "type": "package",
@@ -1857,7 +1913,37 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "vchy_orm/1.0.0": {
+    "VchyModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VchyORMAttribute/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VchyORMCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VchyORMDbBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VchyORMFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VchyORMSql/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VchyORMSqlserver/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,16 @@
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMSql.deps.json
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMSql.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMSql.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMAttribute.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMAttribute.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.csproj.CopyComplete
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\obj\Debug\netcoreapp2.1\VchyORMSql.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMCommon.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyORMCommon.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyModel.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMSql\bin\Debug\netcoreapp2.1\VchyModel.pdb

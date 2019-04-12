@@ -1,0 +1,12 @@
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\bin\Debug\netcoreapp2.1\VchyORMAttribute.deps.json
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\bin\Debug\netcoreapp2.1\VchyORMAttribute.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\bin\Debug\netcoreapp2.1\VchyORMAttribute.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\bin\Debug\netcoreapp2.1\VchyORMCommon.dll
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\bin\Debug\netcoreapp2.1\VchyORMCommon.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMAttribute\obj\Debug\netcoreapp2.1\VchyORMAttribute.csproj.CopyComplete

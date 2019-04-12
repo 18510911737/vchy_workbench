@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Dapper/1.60.1": {
+      "Dapper/1.60.6": {
         "type": "package",
         "dependencies": {
           "System.Data.SqlClient": "4.4.0",
@@ -1836,31 +1836,115 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "vchy_orm/1.0.0": {
+      "VchyModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Dapper": "1.60.1",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMCommon": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/vchy_orm.dll": {}
+          "bin/placeholder/VchyModel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/vchy_orm.dll": {}
+          "bin/placeholder/VchyModel.dll": {}
+        }
+      },
+      "VchyORMAttribute/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "VchyORMCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VchyORMAttribute.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMAttribute.dll": {}
+        }
+      },
+      "VchyORMCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/VchyORMCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMCommon.dll": {}
+        }
+      },
+      "VchyORMDbBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMCommon": "1.0.0",
+          "VchyORMSql": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VchyORMDbBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMDbBase.dll": {}
+        }
+      },
+      "VchyORMFactory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Dapper": "1.60.6",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "VchyModel": "1.0.0",
+          "VchyORMAttribute": "1.0.0",
+          "VchyORMDbBase": "1.0.0",
+          "VchyORMSqlserver": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VchyORMFactory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMFactory.dll": {}
+        }
+      },
+      "VchyORMSql/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "VchyModel": "1.0.0",
+          "VchyORMAttribute": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VchyORMSql.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMSql.dll": {}
+        }
+      },
+      "VchyORMSqlserver/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "VchyORMDbBase": "1.0.0",
+          "VchyORMSql": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VchyORMSqlserver.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyORMSqlserver.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Dapper/1.60.1": {
-      "sha512": "v8eekTHjIMEybch8VwkmaakAO1VpTA0q/kZlEjDlW74lP108UgFex1CyCV5FvgRuyHUkPSHTgYvs7loi3g+v/w==",
+    "Dapper/1.60.6": {
+      "sha512": "ZqK3znlm8dapfO8M0vCgV5+wJrl5Uv00WYmj27wQ6zufSLcklVNJ2fdVMUj59o89p+lmRD6QivTRe0Gdfm6UAQ==",
       "type": "package",
-      "path": "dapper/1.60.1",
+      "path": "dapper/1.60.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dapper.1.60.1.nupkg.sha512",
+        "dapper.1.60.6.nupkg.sha512",
         "dapper.nuspec",
         "lib/net451/Dapper.dll",
         "lib/net451/Dapper.xml",
@@ -6305,17 +6389,49 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "vchy_orm/1.0.0": {
+    "VchyModel/1.0.0": {
       "type": "project",
-      "path": "../vchy_orm/vchy_orm.csproj",
-      "msbuildProject": "../vchy_orm/vchy_orm.csproj"
+      "path": "../VchyModel/VchyModel.csproj",
+      "msbuildProject": "../VchyModel/VchyModel.csproj"
+    },
+    "VchyORMAttribute/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMAttribute/VchyORMAttribute.csproj",
+      "msbuildProject": "../VchyORMAttribute/VchyORMAttribute.csproj"
+    },
+    "VchyORMCommon/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMCommon/VchyORMCommon.csproj",
+      "msbuildProject": "../VchyORMCommon/VchyORMCommon.csproj"
+    },
+    "VchyORMDbBase/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMDbBase/VchyORMDbBase.csproj",
+      "msbuildProject": "../VchyORMDbBase/VchyORMDbBase.csproj"
+    },
+    "VchyORMFactory/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMFactory/VchyORMFactory.csproj",
+      "msbuildProject": "../VchyORMFactory/VchyORMFactory.csproj"
+    },
+    "VchyORMSql/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMSql/VchyORMSql.csproj",
+      "msbuildProject": "../VchyORMSql/VchyORMSql.csproj"
+    },
+    "VchyORMSqlserver/1.0.0": {
+      "type": "project",
+      "path": "../VchyORMSqlserver/VchyORMSqlserver.csproj",
+      "msbuildProject": "../VchyORMSqlserver/VchyORMSqlserver.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Microsoft.Extensions.Configuration.Json >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.1.0",
-      "vchy_orm >= 1.0.0",
+      "VchyORMAttribute >= 1.0.0",
+      "VchyORMFactory >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -6349,8 +6465,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\vchy\\vchy_workbench\\vchy_orm\\vchy_orm\\vchy_orm.csproj": {
-              "projectPath": "D:\\vchy\\vchy_workbench\\vchy_orm\\vchy_orm\\vchy_orm.csproj"
+            "D:\\vchy\\vchy_workbench\\vchy_orm\\VchyORMAttribute\\VchyORMAttribute.csproj": {
+              "projectPath": "D:\\vchy\\vchy_workbench\\vchy_orm\\VchyORMAttribute\\VchyORMAttribute.csproj"
+            },
+            "D:\\vchy\\vchy_workbench\\vchy_orm\\VchyORMFactory\\VchyORMFactory.csproj": {
+              "projectPath": "D:\\vchy\\vchy_workbench\\vchy_orm\\VchyORMFactory\\VchyORMFactory.csproj"
             }
           }
         }
@@ -6364,6 +6483,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[15.9.0, )"

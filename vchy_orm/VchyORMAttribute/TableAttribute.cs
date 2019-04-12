@@ -4,7 +4,12 @@ using System.Text;
 
 namespace VchyORMAttribute
 {
-    class TableAttribute
+    public class TableAttribute : Attribute
     {
+        public TableAttribute(string table)
+        {
+            TableName = table;
+        }
+        public string TableName { get; set; }
     }
 }
