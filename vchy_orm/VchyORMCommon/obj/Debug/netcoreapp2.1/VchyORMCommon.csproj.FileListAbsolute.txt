@@ -6,3 +6,4 @@ D:\vchy\vchy_workbench\vchy_orm\VchyORMCommon\obj\Debug\netcoreapp2.1\VchyORMCom
 D:\vchy\vchy_workbench\vchy_orm\VchyORMCommon\obj\Debug\netcoreapp2.1\VchyORMCommon.AssemblyInfo.cs
 D:\vchy\vchy_workbench\vchy_orm\VchyORMCommon\obj\Debug\netcoreapp2.1\VchyORMCommon.dll
 D:\vchy\vchy_workbench\vchy_orm\VchyORMCommon\obj\Debug\netcoreapp2.1\VchyORMCommon.pdb
+D:\vchy\vchy_workbench\vchy_orm\VchyORMCommon\obj\Debug\netcoreapp2.1\VchyORMCommon.csprojAssemblyReference.cache

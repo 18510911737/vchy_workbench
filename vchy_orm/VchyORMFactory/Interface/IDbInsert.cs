@@ -11,6 +11,7 @@ namespace VchyORMFactory.Interface
     {
         int ExcuteInsert(BaseEntity model);
 
-        int ExcuteInsert(List<BaseEntity> models);
+        int ExcuteInsert<T>(List<T> models)
+            where T : BaseEntity, new();
     }
 }

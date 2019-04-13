@@ -30,15 +30,15 @@ namespace VchyORMFactory
         public int ExcuteInsert(BaseEntity model)
         {
             var sql = _sql.CreateInsert(model);
-            Connection.Execute(sql.ToString());
-            return 0;
+            return Connection.Execute(sql.ToString());
         }
 
-        public int ExcuteInsert(List<BaseEntity> models)
+        public int ExcuteInsert<T>(List<T> models)
+            where T : BaseEntity,new()
         {
-            throw new NotImplementedException();
+            var sql = _sql.CreateInsert(models);
+            return Connection.Execute(sql.ToString());
         }
-
         private void InstallSql()
         {
             switch (Source)

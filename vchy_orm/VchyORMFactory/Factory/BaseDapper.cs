@@ -14,6 +14,8 @@ namespace VchyORMFactory.Factotry
     {
         private string _conn;
 
+        private IDbTransaction _transaction;
+
         public IDbConnection Connection { get; private set; }
         public DbSource Source { get; private set; }
 
@@ -29,6 +31,7 @@ namespace VchyORMFactory.Factotry
         {
             SetConnection(name);
             Source = source;
+            SetDbConnection();
         }
 
         private void SetDbConnection()
@@ -57,5 +60,22 @@ namespace VchyORMFactory.Factotry
                 throw new ArgumentException($"Cannot get the database connection string by {name}", "name");
             }
         }
+
+        public virtual IDbTransaction BeginTransaction()
+        {
+            _transaction = Connection.BeginTransaction();
+            return _transaction;
+        }
+
+        public virtual void Commit()
+        {
+            _transaction.Commit();
+        }
+
+        public virtual void RollBack()
+        {
+            _transaction.Rollback();
+        }
+
     }
 }

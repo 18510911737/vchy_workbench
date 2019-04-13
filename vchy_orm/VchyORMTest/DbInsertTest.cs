@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using VchyModel;
 using VchyORMAttribute;
@@ -19,12 +20,26 @@ namespace VchyORMTest
                 Password = "test",
             };
             DapperFactory factory = new DapperFactory();
-            factory.ExcuteInsert(user);
+            Assert.NotEqual(0, factory.ExcuteInsert(user));
+        }
+
+        [Fact]
+        public void TestAddModels()
+        {
+            var users = Enumerable.Range(0, 10).Select(i =>
+                new User
+                {
+                    LoginName = $"test{i}",
+                    Password = $"test{i}"
+                }
+            ).ToList();
+            DapperFactory factory = new DapperFactory();
+            Assert.NotEqual(0, factory.ExcuteInsert(users));
         }
     }
 
     [Table(table: "User")]
-    public class User:BaseEntity
+    public class User : BaseEntity
     {
         [Field(field: "ID", IsKey = true)]
         public int ID { get; set; }
