@@ -8,6 +8,7 @@ using VchyORMSql.Interface;
 using VchyORMAttribute;
 using VchyModel;
 using System.Linq.Expressions;
+using System.Reflection;
 
 namespace VchyORMSqlserver
 {
@@ -194,9 +195,142 @@ namespace VchyORMSqlserver
             return base.CreateDelete(expression);
         }
 
-        public override StringBuilder CreateDelete<T>(T type, Expression<Func<T, bool>> expression)
+        #endregion
+
+        #region Update
+
+        public override StringBuilder CreateUpdate(BaseEntity model)
         {
-            return base.CreateDelete(type, expression);
+            if (model.IsNull())
+            {
+                throw new ArgumentNullException("param is null");
+            }
+            var type = model.GetType();
+            var key = model.GetFieldByKey();
+            var fields = model.GetFieldsByNotKey();
+            var r = new StringBuilder();
+            r.Append($"Update [{model.SelectTableName()}] ");
+            r.Append("Set ");
+            foreach (var field in fields)
+            {
+                r.Append($"{(field.GetCustomAttributes(typeof(FieldAttribute), false)[0] as FieldAttribute).FieldName}");
+                r.Append("=");
+                r.Append($"{type.GetProperty(field.Name).GetValue(model)}, ");
+            }
+            r = new StringBuilder(r.ToString().TrimEnd(','));
+            r.Append($"WHERE {(key.GetCustomAttributes(typeof(FieldAttribute), false)[0] as FieldAttribute).FieldName}");
+            r.Append("=");
+            r.Append($"{type.GetProperty(key.Name).GetValue(model)}");
+            return r;
+        }
+
+        public override StringBuilder CreateUpdate<T>(T model, Expression<Func<T, bool>> expression)
+        {
+            return base.CreateUpdate(model, expression);
+        }
+
+        public override StringBuilder CreateUpdateOnNotUpdateFields(BaseEntity model, params string[] fields)
+        => CreateUpdate(model, false, fields);
+
+        public override StringBuilder CreateUpdateOnNotUpdateFields<T>(T model, Expression<Func<T, bool>> expression, params string[] fields)
+        {
+            return base.CreateUpdateOnNotUpdateFields(model, expression, fields);
+        }
+
+        public override StringBuilder CreateUpdateOnUpdateFields(BaseEntity model, params string[] fields)
+            => CreateUpdate(model, true, fields);
+
+        public override StringBuilder CreateUpdateOnUpdateFields<T>(T model, Expression<Func<T, bool>> expression, params string[] fields)
+        {
+            return base.CreateUpdateOnUpdateFields(model, expression, fields);
+        }
+
+        private StringBuilder CreateUpdate(BaseEntity model, bool IsUpdateFields, params string[] fields)
+        {
+            if (model.IsNull())
+            {
+                throw new ArgumentNullException("param is null");
+            }
+            var type = model.GetType();
+            var key = model.GetFieldByKey();
+            PropertyInfo[] properties = null;
+            if (IsUpdateFields)
+            {
+                properties = model.GetFieldsByNotKey().Where(f => fields.Any(w => w == f.Name)).ToArray();
+            }
+            else
+            {
+                properties = model.GetFieldsByNotKey().Where(f => !fields.Any(w => w == f.Name)).ToArray();
+            }
+            var r = new StringBuilder();
+            r.Append($"Update [{model.SelectTableName()}] ");
+            r.Append("Set ");
+            foreach (var field in properties)
+            {
+                r.Append($"{(field.GetCustomAttributes(typeof(FieldAttribute), false)[0] as FieldAttribute).FieldName}");
+                r.Append("=");
+                r.Append($"{type.GetProperty(field.Name).GetValue(model)}, ");
+            }
+            r = new StringBuilder(r.ToString().TrimEnd(','));
+            r.Append($"WHERE {(key.GetCustomAttributes(typeof(FieldAttribute), false)[0] as FieldAttribute).FieldName}");
+            r.Append("=");
+            r.Append($"{type.GetProperty(key.Name).GetValue(model)}");
+            return r;
+        }
+
+        #endregion
+
+        #region Select
+
+        public override StringBuilder CreateSelect(BaseEntity model)
+        {
+            if (model.IsNull())
+            {
+                throw new ArgumentNullException("param is null");
+            }
+            var r = new StringBuilder();
+            var type = model.GetType();
+            var key = model.GetFieldByKey();
+            r.Append($"SELECT * FOM {model.SelectTableName()} AS f ");
+            r.Append($@"WHERE f.{(key.GetCustomAttributes(typeof(FieldAttribute), false)[0] as FieldAttribute).FieldName}");
+            r.Append("=");
+            r.Append($"'{type.GetProperty(key.Name).GetValue(model)}'");
+            return r;
+        }
+
+        public override StringBuilder CreateSelect<T>(int key)
+        => CreateSelect<T>(key.ToString());
+
+
+        public override StringBuilder CreateSelect<T>(string key)
+        {
+            var r = new StringBuilder();
+            var type = typeof(T);
+            var field = type.GetFieldByKey();
+            r.Append($"SELECT * FOM {type.SelectTableName()} AS f ");
+            r.Append($@"WHERE f.{(field.GetCustomAttributes(typeof(FieldAttribute), false)[0] as FieldAttribute).FieldName}");
+            r.Append("=");
+            r.Append($"'{key}'");
+            return r;
+        }
+
+        public override StringBuilder CreateSelect<T>()
+        {
+            var r = new StringBuilder();
+            var type = typeof(T);
+            var field = type.GetFieldByKey();
+            r.Append($"SELECT * FOM {type.SelectTableName()} AS f ");
+            return r;
+        }
+
+        public override StringBuilder CreateSelectFirst<T>(Expression<Func<T, bool>> expression)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override StringBuilder CreateSelectList<T>(Expression<Func<T, bool>> expression)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

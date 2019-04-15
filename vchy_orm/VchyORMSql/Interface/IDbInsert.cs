@@ -12,6 +12,6 @@ namespace VchyORMSql.Interface
         StringBuilder CreateInsertAndResultKey(BaseEntity model);
 
         StringBuilder CreateInsert<T>(List<T> models)
-            where T:BaseEntity,new();
+            where T : BaseEntity, new();
     }
 }

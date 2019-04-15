@@ -22,6 +22,5 @@ namespace VchyORMSql.Interface
 
         StringBuilder CreateUpdateOnNotUpdateFields<T>(T model, Expression<Func<T, bool>> expression, params string[] fields)
             where T : BaseEntity, new();
-
     }
 }
