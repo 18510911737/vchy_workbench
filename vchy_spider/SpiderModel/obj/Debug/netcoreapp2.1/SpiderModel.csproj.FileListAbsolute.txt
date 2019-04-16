@@ -1,0 +1,13 @@
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\bin\Debug\netcoreapp2.1\SpiderModel.deps.json
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\bin\Debug\netcoreapp2.1\SpiderModel.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\bin\Debug\netcoreapp2.1\SpiderModel.pdb
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\bin\Debug\netcoreapp2.1\VchyModel.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\bin\Debug\netcoreapp2.1\VchyORMAttribute.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.csproj.CopyComplete
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\obj\Debug\netcoreapp2.1\SpiderModel.pdb
+D:\vchy\vchy_workbench\vchy_spider\SpiderModel\bin\Debug\netcoreapp2.1\VchyORMCommon.dll

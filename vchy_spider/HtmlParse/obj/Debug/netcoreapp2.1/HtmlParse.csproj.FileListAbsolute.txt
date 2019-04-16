@@ -1,0 +1,12 @@
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\bin\Debug\netcoreapp2.1\HtmlParse.deps.json
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\bin\Debug\netcoreapp2.1\HtmlParse.dll
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.csprojAssemblyReference.cache
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\bin\Debug\netcoreapp2.1\HtmlParse.pdb
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.dll
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.pdb
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\bin\Debug\netcoreapp2.1\SpiderHttp.dll
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\bin\Debug\netcoreapp2.1\SpiderHttp.pdb
+D:\vchy\vchy_workbench\vchy_spider\HtmlParse\obj\Debug\netcoreapp2.1\HtmlParse.csproj.CopyComplete

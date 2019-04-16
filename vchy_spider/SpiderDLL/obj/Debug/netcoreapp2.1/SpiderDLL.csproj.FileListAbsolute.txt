@@ -1,0 +1,8 @@
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\bin\Debug\netcoreapp2.1\SpiderDLL.deps.json
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\bin\Debug\netcoreapp2.1\SpiderDLL.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\bin\Debug\netcoreapp2.1\SpiderDLL.pdb
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\obj\Debug\netcoreapp2.1\SpiderDLL.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\obj\Debug\netcoreapp2.1\SpiderDLL.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\obj\Debug\netcoreapp2.1\SpiderDLL.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\obj\Debug\netcoreapp2.1\SpiderDLL.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderDLL\obj\Debug\netcoreapp2.1\SpiderDLL.pdb

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VchyModel">
+      <HintPath>..\SpiderDLL\VchyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="VchyORMAttribute">
+      <HintPath>..\SpiderDLL\VchyORMAttribute.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

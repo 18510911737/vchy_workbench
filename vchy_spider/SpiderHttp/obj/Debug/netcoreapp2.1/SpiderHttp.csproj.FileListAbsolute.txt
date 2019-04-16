@@ -1,0 +1,9 @@
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\bin\Debug\netcoreapp2.1\SpiderHttp.deps.json
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\bin\Debug\netcoreapp2.1\SpiderHttp.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\bin\Debug\netcoreapp2.1\SpiderHttp.pdb
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\obj\Debug\netcoreapp2.1\SpiderHttp.csproj.CoreCompileInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\obj\Debug\netcoreapp2.1\SpiderHttp.AssemblyInfoInputs.cache
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\obj\Debug\netcoreapp2.1\SpiderHttp.AssemblyInfo.cs
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\obj\Debug\netcoreapp2.1\SpiderHttp.dll
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\obj\Debug\netcoreapp2.1\SpiderHttp.pdb
+D:\vchy\vchy_workbench\vchy_spider\SpiderHttp\obj\Debug\netcoreapp2.1\SpiderHttp.csprojAssemblyReference.cache

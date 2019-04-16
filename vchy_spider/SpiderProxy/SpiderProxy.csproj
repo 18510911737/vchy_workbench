@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HtmlParse\HtmlParse.csproj" />
+    <ProjectReference Include="..\SpiderModel\SpiderModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VchyModel">
+      <HintPath>..\SpiderDLL\VchyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="VchyORMCommon">
+      <HintPath>..\SpiderDLL\VchyORMCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="VchyORMDbBase">
+      <HintPath>..\SpiderDLL\VchyORMDbBase.dll</HintPath>
+    </Reference>
+    <Reference Include="VchyORMFactory">
+      <HintPath>..\SpiderDLL\VchyORMFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="VchyORMSql">
+      <HintPath>..\SpiderDLL\VchyORMSql.dll</HintPath>
+    </Reference>
+    <Reference Include="VchyORMSqlserver">
+      <HintPath>..\SpiderDLL\VchyORMSqlserver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Proxy_xicidaili.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
