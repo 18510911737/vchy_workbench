@@ -68,10 +68,10 @@ namespace SpiderProxy
                                 _factory.ExcuteInsert(p);
                             }
                         }
-                        catch
+                        catch (Exception ex)
                         {
+                            Console.WriteLine(ex.Message);
                         }
-
                     }
                 }
             });
