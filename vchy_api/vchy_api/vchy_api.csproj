@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VchyCalculator\VchyCalculator.csproj" />
     <ProjectReference Include="..\VchyMusic\VchyMusic.csproj" />
   </ItemGroup>
 

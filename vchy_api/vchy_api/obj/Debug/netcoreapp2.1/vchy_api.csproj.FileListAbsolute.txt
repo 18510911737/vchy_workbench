@@ -32,3 +32,5 @@ D:\vchy\vchy_workbench\vchy_api\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.RazorT
 D:\vchy\vchy_workbench\vchy_api\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.csproj.CopyComplete
 D:\vchy\vchy_workbench\vchy_api\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.dll
 D:\vchy\vchy_workbench\vchy_api\vchy_api\obj\Debug\netcoreapp2.1\vchy_api.pdb
+D:\vchy\vchy_workbench\vchy_api\vchy_api\bin\Debug\netcoreapp2.1\VchyCalculator.dll
+D:\vchy\vchy_workbench\vchy_api\vchy_api\bin\Debug\netcoreapp2.1\VchyCalculator.pdb

@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using VchyMiddleware;
+using vchy_api.Middleware;
 
 namespace vchy_api
 {
@@ -39,8 +41,15 @@ namespace vchy_api
             {
                 app.UseHsts();
             }
-
+            app.UseMiddleware<OptionsHandlingMiddleware>();
+            app.UseMiddleware<ErrorHandling>();
             app.UseHttpsRedirection();
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyHeader();
+                builder.AllowAnyMethod();
+                builder.AllowAnyOrigin();
+            });
             app.UseMvc();
         }
     }

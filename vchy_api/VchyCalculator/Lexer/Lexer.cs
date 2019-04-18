@@ -25,7 +25,8 @@ namespace VchyCalculator
             _success = true;
             if (!Analyze())
             {
-                _ps.AddPhraseResult("error", PhraseType.unknown);
+                //_ps.AddPhraseResult("error", PhraseType.unknown);
+                throw new ArgumentException("Expression exception");
             }
         }
 
@@ -115,13 +116,13 @@ namespace VchyCalculator
                         _dfa = DFAState.SX;
                     }
                 }
-                else if (_chArray[i] == '+' || 
+                else if (_chArray[i] == '+' ||
                     _chArray[i] == '-' ||
                     _chArray[i] == '*' ||
-                    _chArray[i] == '/' || 
-                    _chArray[i] == '^' || 
-                    _chArray[i] == '%' || 
-                    _chArray[i] == '=' || 
+                    _chArray[i] == '/' ||
+                    _chArray[i] == '^' ||
+                    _chArray[i] == '%' ||
+                    _chArray[i] == '=' ||
                     _chArray[i] == '(' ||
                     _chArray[i] == ')' ||
                     _chArray[i] == '!')
@@ -170,11 +171,11 @@ namespace VchyCalculator
                     else if (_chArray[i] == ')')
                     {
                         _dfa = DFAState.S13;
-                        if (i+1==_chArray.Length)
+                        if (i + 1 == _chArray.Length)
                         {
                             startIndex++;
                             endIndex++;
-                            SavePhrase(startIndex,endIndex);
+                            SavePhrase(startIndex, endIndex);
                         }
                     }
                     else if (_chArray[i] == '!')
@@ -202,7 +203,7 @@ namespace VchyCalculator
         {
             var len = endIndex - startIndex + 1;
             var temp = _sentence.Substring(startIndex, len);
-            return Enum.GetNames(typeof(PhraseType)).Any(f=>f==temp);
+            return Enum.GetNames(typeof(PhraseType)).Any(f => f == temp);
         }
 
         /// <summary>

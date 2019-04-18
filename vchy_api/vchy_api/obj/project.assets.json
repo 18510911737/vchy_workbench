@@ -4616,6 +4616,26 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "VchyCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/VchyCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyCalculator.dll": {}
+        }
+      },
+      "VchyMiddleware/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/VchyMiddleware.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VchyMiddleware.dll": {}
+        }
+      },
       "VchyMusic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -12530,6 +12550,16 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "VchyCalculator/1.0.0": {
+      "type": "project",
+      "path": "../VchyCalculator/VchyCalculator.csproj",
+      "msbuildProject": "../VchyCalculator/VchyCalculator.csproj"
+    },
+    "VchyMiddleware/1.0.0": {
+      "type": "project",
+      "path": "../VchyMiddleware/VchyMiddleware.csproj",
+      "msbuildProject": "../VchyMiddleware/VchyMiddleware.csproj"
+    },
     "VchyMusic/1.0.0": {
       "type": "project",
       "path": "../VchyMusic/VchyMusic.csproj",
@@ -12542,6 +12572,8 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.1",
+      "VchyCalculator >= 1.0.0",
+      "VchyMiddleware >= 1.0.0",
       "VchyMusic >= 1.0.0"
     ]
   },
@@ -12574,6 +12606,12 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\vchy\\vchy_workbench\\vchy_api\\VchyCalculator\\VchyCalculator.csproj": {
+              "projectPath": "D:\\vchy\\vchy_workbench\\vchy_api\\VchyCalculator\\VchyCalculator.csproj"
+            },
+            "D:\\vchy\\vchy_workbench\\vchy_api\\VchyMiddleware\\VchyMiddleware.csproj": {
+              "projectPath": "D:\\vchy\\vchy_workbench\\vchy_api\\VchyMiddleware\\VchyMiddleware.csproj"
+            },
             "D:\\vchy\\vchy_workbench\\vchy_api\\VchyMusic\\VchyMusic.csproj": {
               "projectPath": "D:\\vchy\\vchy_workbench\\vchy_api\\VchyMusic\\VchyMusic.csproj"
             }
